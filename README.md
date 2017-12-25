@@ -2,6 +2,7 @@
 
 This is a P.O.C bitcoin stealer strictly for educational purposes ... 
 Sole purpose is to detect the user's bitcoin wallet and change it to the malicious bitcoin wallet
+Quite basic so all trolls allowed
 
 # Features :- 
 
@@ -16,9 +17,18 @@ Sole purpose is to detect the user's bitcoin wallet and change it to the malicio
 
 Modify and redistribute 
 
+# Beta stage 
+
+This code is simply in beta stage and it might contain bugs please report if you find any :) 
+
+# No illegal usage
+
+If you use it in an illegal way .. you are yourself responsible for your deeds I won't be held responsible ..
+
+
 # Project is a fork 
 
-This is a project i was interested to make when i found the basic fundamentals to get it working on Softxaker forum and Rohitabs
+This is a project i was interested to make when i found the basic fundamentals to get it working on Softxaker RU forum and Rohitabs
 
 # Complaints ? 
 
