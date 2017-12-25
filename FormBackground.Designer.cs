@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Main
+namespace BitcoinStealer
 {
     partial class FormBackground
     {
