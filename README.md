@@ -33,3 +33,7 @@ This is a project i was interested to make when i found the basic fundamentals t
 # Complaints ? 
 
 Send em at Souhardya@protonamil.com
+
+# Shoutouts 
+
+Zanax and smurf
