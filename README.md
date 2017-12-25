@@ -33,7 +33,9 @@ P.S there is nothing in the code as complex lol compile it and just take a overv
 
 # Project is a fork 
 
-This is a project i was interested to make when i found the basic fundamentals to get it working on Softxaker RU forum and Rohitabs
+This is a project i was interested to make when i found the basic fundamentals in the wild to get it working on Softxaker RU forum and Rohitabs .. 
+
+code base taken from the wild
 
 # Complaints ? 
 
