@@ -25,6 +25,11 @@ This code is simply in beta stage and it might contain bugs please report if you
 
 If you use it in an illegal way .. you are yourself responsible for your deeds I won't be held responsible ..
 
+# Figure out on your own 
+
+Sorry won't make a wiki or something in order to analyse or use it you have to understand the code itelf and figure out on your own 
+
+P.S there is nothing in the code as complex lol compile it and just take a overview 
 
 # Project is a fork 
 
