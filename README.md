@@ -1,4 +1,4 @@
-# Bitcoin Stealer
+# Bitcoin Wallet Replacer
 
 This is a P.O.C bitcoin stealer strictly for educational purposes written in C# purely ... 
 Sole purpose is to detect the user's bitcoin wallet and change it to the malicious bitcoin wallet
